@@ -150,7 +150,7 @@ New approximate compilation module by new contributor @ACE07-Sev 🎯 : Added MP
 
 ### 📚 Documentation & Workflow Improvements
 Enhanced compiler customization docs (#391 by @Misty-W)
-Added call-outs for reasearch using UCC (#405 @bachase)
+Added call-outs for research using UCC (#405 @bachase)
 Simplified New Compiler Pass proposal issue template (#373 by @jordandsullivan)
 Migrated in-depth Compiler Pass proposal to Discussions (#372 + #378 by @jordandsullivan)
 Added support for benchmarking automation on fork PRs (#402 by @bachase)
@@ -180,7 +180,7 @@ Full changelog [here](https://github.com/unitaryfoundation/ucc/compare/v0.4.6...
 [PyPI](https://pypi.org/project/ucc/0.4.6/) | [GitHub](https://github.com/unitaryfoundation/ucc/releases/tag/v0.4.6)
 
 In version 0.4.6, we refactored the UCC benchmarking workflows and migrated them to a
-standalone repository [ucc-bench](https://github.com/unitaryfoundation/ucc-bench). We updated the corresponding [documention](https://ucc.readthedocs.io/en/latest/benchmarking.html), adding details on the benchmarked circuits and compiler configurations. As part of this migration, benchmarks can be run on pending PRs to understand the performance implications of a change before merging. The results are posted as comments to the PR (see [here](https://github.com/unitaryfoundation/ucc/pull/359#issuecomment-2876701484) for an example). Going forward, changes related to benchmarking infrastructure will be primarily tracked in the [ucc-bench](https://github.com/unitaryfoundation/ucc-bench) repository.
+standalone repository [ucc-bench](https://github.com/unitaryfoundation/ucc-bench). We updated the corresponding [documentation](https://ucc.readthedocs.io/en/latest/benchmarking.html), adding details on the benchmarked circuits and compiler configurations. As part of this migration, benchmarks can be run on pending PRs to understand the performance implications of a change before merging. The results are posted as comments to the PR (see [here](https://github.com/unitaryfoundation/ucc/pull/359#issuecomment-2876701484) for an example). Going forward, changes related to benchmarking infrastructure will be primarily tracked in the [ucc-bench](https://github.com/unitaryfoundation/ucc-bench) repository.
 
 In preparation for supporting compilation of dynamic circuits, we removed a previously default target gateset compiler pass, and instead added support for users to specify a target gateset to apply post-compilation.
 
@@ -286,7 +286,7 @@ ZZZZZZZZZZZ observable to the heavy output probability.
 
 - Mention benchpress explicitly in License section. #241 [@jordandsullivan]
 - Add target gate set for cirq benchmarking #224 [@bachase]
-- Add ruff for linting and formating #216 [@bachase]
+- Add ruff for linting and formatting #216 [@bachase]
 - Added warnings to top level compile function for trying to import non-supported python versions #185 [@jordandsullivan]
 - Add explicit Sphinx config in .readthedocs.yaml file #180 [@Misty-W]
 
@@ -397,5 +397,5 @@ It also encompasses benchmarking scripts and utilities, tests, documentation, an
 
 ### Removed
 
-- Remove innaccurate data for multi-q gates #86 [@jordandsullivan]
+- Remove inaccurate data for multi-q gates #86 [@jordandsullivan]
 - Remove QuantumTranslator references #23 [@jordandsullivan]

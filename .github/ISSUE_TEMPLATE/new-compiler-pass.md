@@ -11,7 +11,7 @@ assignees: ''
 ### Short description
 **Technique name:**
 
-<!-- Describe the basic functioning of you compiler pass porposal. If your compiler pass is from a paper, you can paste the abstract here -->
+<!-- Describe the basic functioning of you compiler pass proposal. If your compiler pass is from a paper, you can paste the abstract here -->
 
 #### Source of technique
 <!-- Provide links to the following, as applicable. If it's just an idea from your head, feel free to say that :) -->
